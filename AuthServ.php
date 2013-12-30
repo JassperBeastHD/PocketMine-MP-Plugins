@@ -10,9 +10,9 @@ class=SimpleAuth
 apiversion=9,10,11
 */
 
-/*
-Dont use this plugin without permission from JassperBeastHD!
-*/
+
+//Dont use this plugin without permission from JassperBeastHD!
+
 class SimpleAuth implements Plugin{
 	private $api, $server, $config, $sessions, $lastBroadcast = 0;
 	public function __construct(ServerAPI $api, $server = false){
